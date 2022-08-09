@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="tingle-master/dist/tingle.min.css">
+        <link rel="stylesheet" href="tingle.min.css">
+    </head>
+    <body>
+        <div class="containerRegister">
+            <div class="navLeft">
+                <img src="img/Hotelia horizontal blanco.svg" alt="">
+                <h3 class="titleNavLeft">Eres más que bienvenido</h3>
+            </div>
+            <form action="login.html" class="formRegister">
+                <h1 class="titleForm">Regístrate</h1>
+                <div class="inputRegister">
+                    <div class="inputR">
+                        <label for="">Tipo de documento</label><br>
+                        <select name="" id="">
+                            <option value="">Seleccionar</option>
+                            <option value="">T.I</option>
+                            <option value="">C.C</option>
+                            <option value="">Pasaporte</option>
+                        </select>
+                    </div>
+                    <div class="inputR">
+                        <label>Número de documento</label> <br>
+                        <input type="number" name="" id="">
+                    </div>
+                    <div class="inputR">
+                        <label>Nombres</label> <br>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="inputR">
+                        <label for="">Apellidos</label> <br>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="inputR">
+                        <label for="">Fecha nacimiento</label> <br>
+                        <input type="date" name="" id="">
+                    </div>
+                    <div class="inputR">
+                        <label>Género</label><br>
+                        <input type="radio" name="genero" id="">Mujer
+                        <input type="radio" name="genero" id="">Hombre
+                        <input type="radio" name="genero" id="">Otro
+                    </div>
+                    <div class="inputR">
+                        <label for="">Email</label> <br>
+                        <input type="email" name="" id="">
+                    </div>
+                    <div class="inputR">
+                        <label for="">Telefono de contacto</label> <br>
+                        <input type="tel" name="" id="">
+                    </div>
+                    <div class="inputR">
+                        <label for="">País de origen</label> <br>
+                        <select name="" id="">
+                            <option value="">Seleccionar</option>
+                            <option value="">T.I</option>
+                            <option value="">C.C</option>
+                            <option value="">Pasaporte</option>
+                        </select>
+                    </div>
+                    <div class="inputR">
+                        <label>Foto</label> <br>
+                        <input type="file" alt="">
+                    </div>
+                    <div class="inputR">
+                        <label>Contraseña</label> <br>
+                        <input type="password" name="" id="">
+                    </div>
+                    <div class="inputR">
+                        <label for="">Confirmar contraseña</label> <br>
+                        <input type="password" name="" id="">
+                    </div>
+                </div>
+                <div class="checkTC">
+                    <input type="checkbox"  name="" id="">Acepto <a  onclick="modal.open()" >Terminos y condiciones</a>
+                </div>
+                <button type="submit" class="btn-submit" >Ingresar</button>
+            </form>
+        </div>
+        <script src="tingle-master/dist/tingle.min.js"></script>
+        <script src="js/modal.js"></script>
+    </body>
+</html>

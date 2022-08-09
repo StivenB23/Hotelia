@@ -1,0 +1,48 @@
+{
+  "name": "tingle.js",
+  "version": "0.16.0",
+  "description": "A simple modal plugin written in pure JavaScript",
+  "main": "dist/tingle.min.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "keywords": [
+    "modal",
+    "popup",
+    "window",
+    "dialog",
+    "popin",
+    "lightbox"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-header": "^2.0.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinparisi/tingle.git"
+  },
+  "author": "robinparisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinparisi/tingle/issues"
+  },
+  "homepage": "https://github.com/robinparisi/tingle#readme"
+}
